@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    font-family: monospace;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+}
+
+.fas {
+    margin: 0 0 0 10px;
+    font-size: 3rem;
+    color: white;
+}
+
+.wrapper {
+    border: 1px solid black;
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;
+}
+
+.buttons {
+    width: 50vw;
+    margin: 30px auto;
+}
+
+button {
+    font-size: 0px;
+    background-color: black;
+    border: none;
+    width: 150px;
+    height: 100px;;
+    cursor: pointer;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: white;
+    border: 1px solid black;
+}
+
+button:hover .fas {
+    color: black;
+}
+
+.game {
+    font-size: 1.5rem;
+}
+
+.winner {
+    color: red;
+    font-size: 1.8rem;
+}
+
+.stats {
+    text-align: left;
+    margin: 15px;
+    padding-left: 10px;
+    border-left: 2px solid black;
+    font-size: 1.2rem;
+}
+
+.stats__games, .stats__wins, .stats__luck {
+    font-weight: 600;
+}
+

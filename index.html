@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PKN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <h1>PAPER STONE SCISSORS</h1>
+    <h2>CHOOSE TO PLAY:</h2>
+
+    <div class="buttons">
+        <button class="paper">paper<i class="fas fa-hand-paper"></i></button>
+        <button class="stone">stone<i class="fas fa-hand-rock"></i></button>
+        <button class="scissors">scissors<i class="fas fa-hand-scissors"></i></button>
+    </div>
+
+    <div class="game">
+        <div>YOU: <span class='game__your'>?</span></div> 
+        <div>COMPUTER: <span class='game__opponent'>?</span></div>
+        <div class='winner'>WINNER: <span class='game__winner'>?</span></div>
+    </div>
+
+    <div class="stats">
+        <div>Games: <span class='stats__games'>0</span></div> 
+        <div>Wins: <span class='stats__wins'>0</span></div>
+        <div>Luck: <span class='stats__luck'>0</span></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
